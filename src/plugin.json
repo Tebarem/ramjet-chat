@@ -1,0 +1,9 @@
+{
+  "id": "chat",
+  "name": "Chat",
+  "version": "0.1.0",
+  "api": "1.0",
+  "main": "RamjetChat.ChatPlugin",
+  "description": "Chat: formats with prefix and suffix, gated MiniMessage, hover and click, channels, private messages with ignore and social spy, mentions, filters, cooldowns, mute, chat log",
+  "authors": ["Tebarem"]
+}
