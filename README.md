@@ -1,5 +1,7 @@
 # Chat
 
+> **Requires `Ramjet.Api` 1.0.0-preview.3 or newer, and a server that runs it.** This plugin uses the private-message service (`IPrivateMessages`), which is new in that version; it does not compile against or run on older versions.
+
 Ramjet's chat plugin (id `chat`): formats with prefix, suffix and group templates, gated MiniMessage-style formatting with hover and click, global, local and staff channels, private messages with ignore and social spy, `@mentions`, word, link, capitals and repetition rules, cooldowns, chat mute commands, a daily chat log and emoji shortcodes. Messages stay signed: the typed text is never changed, the styling goes into the name, the unsigned decoration and the filter mask.
 
 Clean-room: written from the public behaviour of chat systems and the Ramjet API only.
