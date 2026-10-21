@@ -12,10 +12,10 @@ Clean-room: written from the public behaviour of chat systems and the Ramjet API
 
 ## Build and test
 
-Set `RAMJET_HOME` to the engine's build output (the folder that holds `dotnet/Mc.Scripting.Api.dll`) for the plugin build:
+The plugin builds against the public [`Ramjet.Api`](https://www.nuget.org/packages/Ramjet.Api) package (`1.0.0-preview.4` or newer) from nuget.org; no engine build is needed.
 
 ```bash
-RAMJET_HOME=/path/to/build/bin dotnet build src/chat.csproj
+dotnet build src/chat.csproj
 dotnet run --project tests/Chat.Tests
 ```
 
